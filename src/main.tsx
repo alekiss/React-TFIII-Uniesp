@@ -6,6 +6,7 @@ import Header from './components/Header'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import SimpleCounter from './pages/SimpleCounter'
 import FilterSearch from './pages/FilterSearch'
+import Footer from './components/Footer'
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
@@ -16,6 +17,7 @@ ReactDOM.createRoot(document.getElementById('root')!).render(
         <Route path="/simple-counter" element={<SimpleCounter />} />
         <Route path="/filter-search" element={<FilterSearch />} />
       </Routes>
+      <Footer />
     </BrowserRouter>
   </React.StrictMode>,
 )

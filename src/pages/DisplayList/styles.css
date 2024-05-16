@@ -1,0 +1,21 @@
+.display-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #fff;
+    width: 600px;
+    min-height: 520px;
+    background-color: var(--color-primary-variant) !important;
+    margin: 50px auto !important;
+    padding: 20px;
+    border-radius: 20px;
+  }
+  
+  .display-list h1 {
+    margin-bottom: 20px;
+  }
+  
+  .display-list li {
+    margin: 5px 0;
+  }

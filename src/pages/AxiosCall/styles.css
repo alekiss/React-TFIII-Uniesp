@@ -1,0 +1,29 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 600px;
+    min-height: 470px;
+    background-color: var(--color-primary-variant);
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 20px;
+  }
+  
+  .submit {
+    background-color: var(--color-primary-variant);
+    cursor: pointer;
+    border: 1px solid #fff;
+    width: 50%;
+    color: #fff;
+    font-size: 20px;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  .joke {
+    color: #fff;
+    margin-bottom: 30px;
+    text-align: center;
+  }

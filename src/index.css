@@ -11,6 +11,7 @@ body {
   background: var(--color-primary) !important;
   width: 100%;
   position: relative;
+  margin-bottom: 100px;
 }
 
 :root {
